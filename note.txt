@@ -1,0 +1,8 @@
+npx hardhat run scripts/deployTesting.js --network localhost
+
+
+npx hardhat run scripts/skip.js --network localhost
+
+npx hardhat run scripts/startTitanxMiners.js --network localhost
+
+npx hardhat run scripts/triggerPayouts.js --network localhost
